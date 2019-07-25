@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PharmServ</string>
+    <string name="tab_text_1" translatable="false">Vacancies</string>
+    <string name="tab_text_2" translatable="false">Find Drug</string>
+    <string name="tab_text_3" translatable="false">Contact Us</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="post_job_text">Looking to hire a Pharmacist?</string>
+    <string name="no_result_found" translatable="false">No results matched your search</string>
+    <string name="no_internet_view_text">No Internet Connection</string>
+    <string name="server_error_toast">Server is busy, try again later</string>
+    <string name="no_internet_connection">Check your data or Wi-Fi connection.</string>
+    <string name="shared_element" translatable="false">category</string>
+    <string name="no_data_available_title">No Data Available</string>
+    <string name="not_defined_value" translatable="false">Not Defined</string>
+    <string name="contact_number" translatable="false">+2 0128 888 8888</string>
+    <string name="no_data_available_subtitle">There\'s no data to show right now</string>
+    <string name="posted_title">Posted:</string>
+    <string name="phone_number_title">Phone Number</string>
+    <string name="call_now_text" translatable="false">CALL NOW</string>
+    <string name="address_title">Address</string>
+    <string name="job_description_title">Job Description</string>
+    <string name="working_hours_title">Working Hours</string>
+    <string name="salary_title">Salary</string>
+    <string name="application_version">Version 1.1.4</string>
+    <string name="licenses_title">Licenses</string>
+    <string name="first_category">Community Pharmacy</string>
+    <string name="second_category">Medical Representative</string>
+    <string name="third_category">Pharmacy Manager</string>
+    <string name="fourth_category">Pharmaceutical Industry</string>
+    <string name="fifth_category">Registry Sell</string>
+    <string name="sixth_category">Pharmacy Rent/Sell</string>
+    <string name="seventh_category">University Teaching</string>
+    <string name="vacancy_details_warning_text">* Make sure to include working hours/days. Salary is optional</string>
+    <string name="submit_form_button_text">SUBMIT FORM</string>
+    <string name="vacancy_details_hint_text">VACANCY DETAILS</string>
+    <string name="address_hint_text">ADDRESS</string>
+    <string name="phone_number_hint_text">PHONE NUMBER</string>
+    <string name="company_name_hint_text">COMPANY/PHARMACY NAME</string>
+    <string name="category_title_text">CATEGORY</string>
+    <string name="job_offer_form_title">JOB OFFER FORM</string>
+    <string name="about_app">This Application follows:\nIsmailia Pharmacists Syndicate\nPublic Services Commitee</string>
+    <string name="fill_form_text">Fill This Form</string>
+    <string name="sending_form_second_warning">* Make sure to include Email if the vacancy requires sending resume</string>
+    <string name="complete_fields_toast">Please complete all fields!</string>
+    <string name="successful_form_submit_toast">Your vacancy form submitted successfully, waiting for approval...</string>
+    <string name="not_defined_text">Not Defined</string>
+
+    <string-array name="categories">
+        <item>@string/first_category</item>
+        <item>@string/second_category</item>
+        <item>@string/third_category</item>
+        <item>@string/fourth_category</item>
+        <item>@string/fifth_category</item>
+        <item>@string/sixth_category</item>
+        <item>@string/seventh_category</item>
+    </string-array>
+</resources>

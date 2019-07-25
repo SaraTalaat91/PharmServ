@@ -1,0 +1,32 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/categories_swipe_refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/vacancy_categories_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/categories_no_connection_layout"
+            layout="@layout/no_connection_layout"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/categories_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PharmServ</string>
+    <string name="post_job_text">هل ترغب في نشر وظيفة؟</string>
+    <string name="posted_title">تاريخ النشر:</string>
+    <string name="phone_number_title">رقم الهاتف</string>
+    <string name="address_title">العنوان</string>
+    <string name="job_description_title">تفاصيل الوظيفة</string>
+    <string name="working_hours_title">ساعات العمل</string>
+    <string name="salary_title">المرتب</string>
+    <string name="licenses_title">مساهمات</string>
+    <string name="application_version">"الاصدار 1.1.4 "</string>
+    <string name="first_category">صيدليات</string>
+    <string name="second_category">مندوب أدوية</string>
+    <string name="third_category">مدير صيدلية</string>
+    <string name="fourth_category">مصانع أدوية</string>
+    <string name="fifth_category">بيع رخصة</string>
+    <string name="sixth_category">بيع/ايجار صيدلية</string>
+    <string name="seventh_category">تدريس جامعي</string>
+    <string name="vacancy_details_warning_text">* تأكد من ادراج ساعات العمل. المرتب اختياري</string>
+    <string name="submit_form_button_text">ارسال</string>
+    <string name="vacancy_details_hint_text">تفاصيل الوظيفة</string>
+    <string name="address_hint_text">العنوان</string>
+    <string name="phone_number_hint_text">رقم الهاتف</string>
+    <string name="company_name_hint_text">اسم الشركة/الصيدلية</string>
+    <string name="category_title_text">الفئات</string>
+    <string name="job_offer_form_title">نموذج ادراج وظيفة</string>
+    <string name="about_app">هذا التطبيق يتبع لجنة الخدمات العامة - نقابة صيادلة الاسماعيلية</string>
+    <string name="fill_form_text">املأ هذا النموذج</string>
+    <string name="sending_form_second_warning">* في حال كانت الوظيفة تتطلب ارسال سيرة ذاتية، برجاء إدراج بريد الكتروني</string>
+    <string name="complete_fields_toast">برجاء اكمال جميع البيانات المطلوبة!</string>
+    <string name="successful_form_submit_toast">لقد تم ارسال طلبك بنجاح، في انتظار اعتماده..</string>
+    <string name="not_defined_text">غير محدد</string>
+    <string name="server_error_toast">الخادم مشغول، حاول في وقت لاحق</string>
+    <string name="no_internet_connection">تأكد من الاتصال بالانترنت، وحاول مرة أخرى.</string>
+    <string name="no_internet_view_text">تعذر الاتصال بالشبكة</string>
+    <string name="no_data_available_subtitle">لا يوجد بيانات حتى يتم عرضها في الوقت الحالي</string>
+    <string name="no_data_available_title">البيانات مفقودة</string>
+</resources>

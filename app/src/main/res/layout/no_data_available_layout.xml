@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/no_data_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_search" />
+
+    <ImageView
+        android:id="@+id/no_data_iv_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/no_data_tv"
+        android:layout_alignLeft="@+id/no_data_iv"
+        android:src="@drawable/ic_warning_ic" />
+
+    <TextView
+        android:id="@+id/no_data_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_data_iv"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#9fa7b2"
+        android:text="@string/no_data_available_title"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_data_tv"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:text="@string/no_data_available_subtitle" />
+
+</RelativeLayout>
